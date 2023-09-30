@@ -76,7 +76,6 @@ class RRTGraph:
     
     def makeobs(self):
         obs=[]
-
         for i in range(0,self.obsNum):
             rectang=None
             startgoalcol=True
